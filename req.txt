@@ -6,3 +6,4 @@ pandas
 scikit-learn
 xgboost
 flask_cors
+gunicorn
