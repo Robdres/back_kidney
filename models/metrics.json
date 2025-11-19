@@ -1,0 +1,94 @@
+{
+  "best_model": "XGBRegressor",
+  "results": [
+    {
+      "model": "LinearRegression",
+      "r2_test": 0.3154603074971216,
+      "r2_train": 0.6753156286504826,
+      "mae": 0.14022791890974995,
+      "rmse": 0.19113073877780015,
+      "best_params": {
+        "model__fit_intercept": true
+      },
+      "train_time_sec": 2.0685431957244873,
+      "memory_peak_mb": 1.8372936248779297
+    },
+    {
+      "model": "Ridge",
+      "r2_test": 0.30060262635102875,
+      "r2_train": 0.6522450536323885,
+      "mae": 0.15123761926172963,
+      "rmse": 0.19319381533157448,
+      "best_params": {
+        "model__alpha": 60.29186751947844
+      },
+      "train_time_sec": 2.2100298404693604,
+      "memory_peak_mb": 1.8635644912719727
+    },
+    {
+      "model": "Lasso",
+      "r2_test": 0.34923727852235165,
+      "r2_train": 0.6090849786034322,
+      "mae": 0.14639946670040185,
+      "rmse": 0.18635564559199,
+      "best_params": {
+        "model__alpha": 0.020874558905144457
+      },
+      "train_time_sec": 2.2078821659088135,
+      "memory_peak_mb": 1.7883806228637695
+    },
+    {
+      "model": "XGBRegressor",
+      "r2_test": 0.7262880917903917,
+      "r2_train": 0.9655355436625085,
+      "mae": 0.06688604865959065,
+      "rmse": 0.12085874131401511,
+      "best_params": {
+        "model__subsample": 0.8,
+        "model__reg_lambda": 1,
+        "model__reg_alpha": 0,
+        "model__n_estimators": 100,
+        "model__min_child_weight": 7,
+        "model__max_depth": 7,
+        "model__learning_rate": 0.05,
+        "model__gamma": 0,
+        "model__colsample_bytree": 0.6
+      },
+      "train_time_sec": 8.575650453567505,
+      "memory_peak_mb": 1.8154535293579102
+    },
+    {
+      "model": "OrdinalRidge",
+      "r2_test": -2.3898305084745757,
+      "r2_train": 0.11330049261083741,
+      "mae": 0.05555555555555555,
+      "rmse": 0.23570226039551584,
+      "best_params": {
+        "model__alpha": 5.620033785354685
+      },
+      "train_time_sec": 2.2157833576202393,
+      "memory_peak_mb": 1.8062801361083984
+    },
+    {
+      "model": "LogisticAT",
+      "r2_test": -3.5197740112994342,
+      "r2_train": 0.16256157635467983,
+      "mae": 0.07407407407407407,
+      "rmse": 0.2721655269759087,
+      "best_params": {
+        "model__alpha": 0.15359288658152992
+      },
+      "train_time_sec": 3.231140613555908,
+      "memory_peak_mb": 1.822732925415039
+    }
+  ],
+  "r2_best": 0.7262880917903917,
+  "class_counts": {
+    "0": 1425,
+    "1": 542,
+    "2": 154,
+    "3": 36
+  },
+  "train_size": 1624,
+  "test_size": 540
+}
